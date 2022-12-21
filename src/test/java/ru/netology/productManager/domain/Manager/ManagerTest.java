@@ -165,7 +165,7 @@ class ManagerTest {
 
 
         Product[] expected = {smartphone2};
-        Product[] actual = manager.searchBy("Day");
+        Product[] actual = manager.searchBy("day");
 
         Assertions.assertArrayEquals(expected, actual);
     }
